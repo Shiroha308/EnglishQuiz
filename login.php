@@ -22,7 +22,7 @@
   </div>
   <button type="submit">新規登録</button>
   <p>ゲストユーザーは、<strong>「ゲスト」</strong><br>よりお進み下さい。</p>
-  <button type="button" onclick="location.href=https//englishquizsample.herokuapp.com/">ゲスト</button>
+  <button type="button" onclick="location.href='https//englishquizsample.herokuapp.com/'">ゲスト</button>
 </form>
 </body>
 </html>
