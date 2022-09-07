@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="https://englishquizsample.herokuapp.com/login.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>英単語学習アプリ_新規登録画面</title>
