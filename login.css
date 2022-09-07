@@ -18,7 +18,7 @@ form {
     width: 400px;
     padding: 10px 10px;
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgb(216, 236, 237);
@@ -28,10 +28,10 @@ form {
 
 .login_form_btm{
     padding: 10px 0;
-    border:5px solid #383838;
+    border:5px dotted #383838;
     margin: 10px 0;
     border-radius: 0.5em;
-    opacity: 0.9;
+    opacity: 0.6;
   }
 
 form h1,form p{
