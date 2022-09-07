@@ -64,8 +64,16 @@
     <script type="text/javascript" src="https://englishquizsample.herokuapp.com/quiz/easy.js"></script>
 </head>
 <body>
-    <!-- ヘッダーメニューの作成 -->
-
+<!-- ヘッダーメニューの作成 -->
+    <nav>
+     <ul>
+     <li><a class=”current” onclick="window.open('http://localhost/webapp/index.php')">ホーム</a></li>
+      <li><a onclick="window.open('http://localhost/webapp/quiz/easy.php')">初級</a></li>
+      <li><a onclick="window.open('http://localhost/webapp/quiz/normal.php')">中級</a></li>
+      <li><a onclick="window.open('http://localhost/webapp/quiz/difficult.php')">上級</a></li>
+      <li><a onclick="window.open('http://localhost/webapp/quiz/timeattack.php')">タイムアタック</a></li>
+    </ul>
+    </nav> 
 <!-- 矢印記号を下記に挿入 -->
 <center class="typesquare_tags">
 	<div class="triangle"></div>
