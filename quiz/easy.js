@@ -1,52 +1,52 @@
 //-----------------------------【初級のバージョン】---------------------------------
 let Q = [//クイズの内容を全部入れる
-'Q.【sycophancy】と同じ意味の単語は？',//問題
-' onclick = "Question(1);">obsequiousness',//答え1
-' onclick = "Question(2);">bad-mouthing', //答え2
-' onclick = "Question(2);">detraction', //答え3
-'【sycophancy】は、”おしゃべり”、”おべっか”という意味があります。',//解説
+'Q.【relationship】と同じ意味の単語は？',//問題
+' onclick = "Question(1);">link',//答え1
+' onclick = "Question(2);">divorce', //答え2
+' onclick = "Question(2);">division', //答え3
+'【relationship】は、”関係性”という意味があります。',//解説
 
-'Q.【oblique】と同じ意味の単語は？', 
-' onclick = "Question(2);">spare',
-' onclick = "Question(1);">slanted',
-' onclick = "Question(2);">explicit',
-'【oblique】は”遠回しの”、”斜めの”という意味があります。',
+'Q.【achieve】と同じ意味の単語は？', 
+' onclick = "Question(2);">archive',
+' onclick = "Question(2);">allocate',
+' onclick = "Question(1);">complete',
+'【achieve】は”達成する”という意味があります。',
 
-'Q.【burrow】と似た意味の単語は？', 
+'Q.【theory】と似た意味の単語は？', 
 ' onclick = "Question(2);">value',
-' onclick = "Question(1);">tunnel',
-' onclick = "Question(2);">channel',
-'【burrow】は”巣穴”、”潜り穴”という意味があります。',
+' onclick = "Question(2);">concept',
+' onclick = "Question(1);">throw',
+'【theory】は”仮説、設定”という意味があります。',
 
-'Q.【piquant】と同じ意味の単語は？', 
-' onclick = "Question(2);">sweet',
-' onclick = "Question(1);">pungent',
-' onclick = "Question(2);">sultry',
-'【piquant】は”ピリッとくる辛さ”という意味があります。',
+'Q.【fold】と同じ意味の単語は？', 
+' onclick = "Question(2);">unfold',
+' onclick = "Question(1);">bend',
+' onclick = "Question(2);">folder',
+'【fold】は”折り曲げる”という意味があります。',
 
-'Q.【fruit pulp】のpulpはどんな意味？', 
-' onclick = "Question(1);">果肉',
-' onclick = "Question(2);">果汁',
-' onclick = "Question(2);">種',
-'【pulp】には”果肉”という意味があります。',
+'Q.【ancestor】と同じ意味の単語は？', 
+' onclick = "Question(1);">forebear',
+' onclick = "Question(2);">liner',
+' onclick = "Question(2);">planner',
+'【ancestor】には”祖先”という意味があります。',
 
-'Q.【腰】が痛い時はどこへ行く？？', 
-' onclick = "Question(2);">dermatology',
-' onclick = "Question(2);">cardiology ',
-' onclick = "Question(1);">osteopathic',
-'【osteopathic】は”整体師”、という意味があります。',
+'Q.【audience】と同じ意味の単語は？', 
+' onclick = "Question(2);">authority',
+' onclick = "Question(2);">augment',
+' onclick = "Question(1);">gallery',
+'【audience】は”聴衆”、という意味があります。',
 
-'Q.【inaugurate】と同じ意味の単語は？？', 
-' onclick = "Question(2);">abolish',
-' onclick = "Question(1);">initiate',
-' onclick = "Question(2);">terminate',
-'【inaugurate】は”就任する、始める”、という意味があります。',
+'Q.【deny】と同じ意味の単語は？？', 
+' onclick = "Question(1);">decline',
+' onclick = "Question(2);">accept',
+' onclick = "Question(2);">climb',
+'【deny】は”否定す、却下する”、という意味があります。',
 
-'Q.【amber】と同じ意味の単語は？？', 
-' onclick = "Question(1);">translucent fossil resin',
-' onclick = "Question(2);">gummy',
-' onclick = "Question(2);">strand',
-'【amber】は"琥珀”、という意味があります。',
+'Q.【serve】と同じ意味の単語は？？', 
+' onclick = "Question(1);">provide',
+' onclick = "Question(2);">severe',
+' onclick = "Question(2);">saver',
+'【serve】は"提供する”、という意味があります。',
 
 ];
 
