@@ -53,9 +53,7 @@ if (count($error) === 0){
     return;
     $Created = userinfo::createUser($_POST);
     if(!$Created){
-        $error[]= "登録に失敗しました。";
-        echo "<p>下記のボタンからお手数ですが、再度登録をお願い致します。<br>";
-
+        echo "下記のボタンからお手数ですが、再度登録をお願い致します。";
     }
 }
 ?>
