@@ -248,6 +248,8 @@ textarea,input[type="submit"],input[type="text"]{
   background-color:rgb(216, 236, 237);
   border-radius:0.2rem;
   border:none;
+  color:#383838;
+  font-weight: 800;
 }
 
 /*フォーカス時の装飾*/
@@ -265,7 +267,6 @@ input[type="submit"]{
   width: 20%;
   padding: 5px;
   margin-top: 5px;
-  font-weight: 800;
 }
 
 /*
