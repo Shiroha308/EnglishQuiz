@@ -1,5 +1,15 @@
 @charset "utf-8";
 
+@media screen and (max-width: 600px) {
+  /*　画面サイズ 600pxまで適用　*/
+  html {
+    max-width: 97%;
+    margin:auto;
+  
+   
+  }
+}
+
 body {
     font-family: sans-serif;
 }
@@ -18,15 +28,15 @@ form {
 
 .login_form_btm{
     padding: 10px 0;
-    border:5px solid whitesmoke;
+    border:5px solid #383838;
     margin: 10px 0;
     border-radius: 0.5em;
     opacity: 0.9;
   }
 
 form h1,form p{
-    color: #555;
-    font-weight: 500;
+    color: #383838;
+    font-weight: 600;
 }
   
 input{
