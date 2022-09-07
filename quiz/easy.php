@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<!-- 初級ボタンを選択した人専用の画面 --> 
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英単語_初級コース</title>
-     <!-- スタイルシートの読み込み -->
-    <link rel="stylesheet" href="https://englishquizsample.herokuapp.com/style.css">
-     <!-- javascriptファイルの読み込み -->
-    <script type="text/javascript" src="https://englishquizsample.herokuapp.com/quiz/easy.js"></script>
 <?php
     date_default_timezone_set("Asia/Tokyo");
     echo shell_exec("python script.py");
@@ -60,6 +48,20 @@
     //DBの接続を閉じる
     $pdo = null;
 ?>
+
+
+<!DOCTYPE html>
+<!-- 初級ボタンを選択した人専用の画面 --> 
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英単語_初級コース</title>
+     <!-- スタイルシートの読み込み -->
+    <link rel="stylesheet" href="https://englishquizsample.herokuapp.com/style.css">
+     <!-- javascriptファイルの読み込み -->
+    <script type="text/javascript" src="https://englishquizsample.herokuapp.com/quiz/easy.js"></script>
 </head>
 <body>
     <!-- ヘッダーメニューの作成 -->
