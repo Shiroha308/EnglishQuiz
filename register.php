@@ -3,8 +3,8 @@
 //ユーザー登録の結果を表示するための画面
 //
 
-require_once ('environment.php');
-require_once ('userinfo.php');
+require_once ('https://englishquizsample.herokuapp.com/environment.php');
+require_once ('https://englishquizsample.herokuapp.com/userinfo.php');
 
 $error = [];
 //validationを実装
