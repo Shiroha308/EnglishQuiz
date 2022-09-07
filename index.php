@@ -8,7 +8,7 @@
     $error_messages = array();
     //DB(MySQL接続)を行う
     try{
-        $pdo = new PDO('mysql:dbname=openchat;host=localhost;charset=utf8','root','root');
+        $pdo = new PDO('mysql:dbname=heroku_e8f3a7d35b48f46;host=us-cdbr-east-06.cleardb.net;charset=utf8','b107445cca4e99','a12347dc');
     }catch(PDOException $e){
         echo $e->getMessage();
     }    
