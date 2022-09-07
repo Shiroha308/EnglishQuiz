@@ -58,6 +58,7 @@ button{
     transition: 0.25s;
     text-align: center;  
     font-weight: 800;  
+    color: #383838;
 }
 
 form input[type = "id"],form input[type = "password"],form input[type = "text"],form input[type = "email"] {
