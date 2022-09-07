@@ -15,15 +15,19 @@
 </head>
 <body>
     <!-- ヘッダーメニューの作成 -->
-    <nav>
-     <ul>
-     <li><a class=”current” onclick="window.open('http://localhost/webapp/index.php')">ホーム</a></li>
-      <li><a onclick="window.open('http://localhost/webapp/quiz/easy.php')">初級</a></li>
-      <li><a onclick="window.open('http://localhost/webapp/quiz/normal.php')">中級</a></li>
-      <li><a onclick="window.open('http://localhost/webapp/quiz/difficult.php')">上級</a></li>
-      <li><a onclick="window.open('http://localhost/webapp/quiz/timeattack.php')">タイムアタック</a></li>
-    </ul>
+    <header>
+    <h1>
+        英語学習アプリ
+    </h1>
+    <nav class="pc-nav">
+        <ul>
+            <li><a href="https://englishquizsample.herokuapp.com/quiz/easy.php">初級</a></li>
+            <li><a href="https://englishquizsample.herokuapp.com/quiz/normal.php">中級</a></li>
+            <li><a href="https://englishquizsample.herokuapp.com/quiz/dificult.php">上級</a></li>
+            <li><a href="https://englishquizsample.herokuapp.com/quiz/timeattack.php">タイムアタック</a></li>
+        </ul>
     </nav>
+    </header>
     <!-- 下記に内容を記述 -->
     <h2>難易度別単語テスト</h2>
     
