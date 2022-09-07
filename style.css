@@ -40,11 +40,15 @@ nav ul {
   font-weight: 800;
   border-bottom:3px solid #ff3399;
 }
+
 nav li {
   margin: 0 0 0 15px;
   font-size: 14px;
 }
 
+nav li a{
+  text-decoration: none;
+}
 
 /*「次の問題へ」のボタン装飾*/
 .buttonnext{
