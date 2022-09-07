@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 /*　スマホ画面用のCSSスタイル　*/
-@media screen and (max-width: 499px) {
-  /*　画面サイズ 499pxまで適用　*/
+@media screen and (max-width: 600px) {
+  /*　画面サイズ 600pxまで適用　*/
   html {
     max-width: 98%;
   }
