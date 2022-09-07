@@ -23,7 +23,7 @@
         <ul>
             <li><a href="https://englishquizsample.herokuapp.com/quiz/easy.php">初級</a></li>
             <li><a href="https://englishquizsample.herokuapp.com/quiz/normal.php">中級</a></li>
-            <li><a href="https://englishquizsample.herokuapp.com/quiz/dificult.php">上級</a></li>
+            <li><a href="https://englishquizsample.herokuapp.com/quiz/difficult.php">上級</a></li>
             <li><a href="https://englishquizsample.herokuapp.com/quiz/timeattack.php">タイムアタック</a></li>
         </ul>
     </nav>
