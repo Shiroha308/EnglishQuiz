@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+    font-family: sans-serif;
+}
+
 form {
     width: 400px;
     padding: 40px 10px;
