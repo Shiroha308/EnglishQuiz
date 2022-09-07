@@ -4,6 +4,9 @@
   echo "動作確認";
 ?>
   
+<!DOCTYPE html>
+<html lang="ja">
 <?php
   echo "<p>動作確認その2</p>";
 ?>
+</html>
