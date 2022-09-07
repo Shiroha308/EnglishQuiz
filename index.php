@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英語アプリ_メイン画面</title>
      <!-- スタイルシートの読み込み -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://englishquizsample.herokuapp.com/style.css">
      <!-- javascriptファイルの読み込み -->
 <!-- pythonファイルの読み込み -->
 
