@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+body{
+  max-width: 600px;
+  margin: auto;
+}
+
+/*全体を中央寄せに*/
+.quizarea,.openchat{
+  text-align: center;
+}
+#timer{
+  text-align: center;
+}
+
+/*
+メニューエリアの装飾
+*/
+
+nav ul{
+display: table;
+margin: 10px auto;
+padding: 10px 0 10px 0;
+width: 80%;
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+position: relative;
+}
+nav ul li a{
+display: block;
+width: 100%;
+}
+nav ul li a::after,
+nav ul li a::before {
+display: block;
+content: ”;
+position: absolute;
+}
+nav ul li a::after {
+bottom: -50%;
+left: 50%;
+width: 5px;
+height: 5px;
+background-color: #ccc;
+border-radius: 100%;
+}
+nav ul li a.current::after {
+background-color: #3498db;
+}
+nav ul li a:hover{
+color:#ff3399;
+background-color: white;
+}
+nav ul li a:hover:after {
+background-color: yellow;
+width: 100%;
+left: 0;
+border-radius: 5px;
+}
+nav ul li a{
+text-decoration: none;
+color:#aaa;
+}
+nav ul li a.current{
+color:#555;
+}
+
+
+/*「次の問題へ」のボタン装飾*/
+.buttonnext{
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background-color: #eb6100;
+  border-radius: 0.5rem;
+}
+
+.buttonnext:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+
+.choice{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #fff;
+    background-color: hsl(26, 12%, 23%);
+    border-radius: 0.5rem;
+    min-width: 300px;
+    margin-bottom: 0.5rem;
+    margin-top:0.5rem;
+  }
+  
+  .choice:hover {
+    color: hsl(26, 12%, 23%);
+    background: #fff;
+  }
+
+  /*正解、不正解時のフォント*/
+  #ox p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:red;
+  }
+/*質問文のフォント*/
+  #quiz a{
+    font-size: 1.3rem;
+    font-weight: 700;   
+    color:black;
+  }
+
+/*
+ページ内の<div>要素をborderで装飾して囲う
+*/
+.ButtonArea,.boardwrapper,.future{
+  border: 3px solid hsl(26, 12%, 23%);
+  border-radius:0.5rem;
+  padding:10px 10px 0px 10px;
+  margin-bottom: 10px;
+}
+
+/*
+オープンチャットエリアの装飾を施す
+*/
+.boardwrapper{
+  overflow:scroll;
+  height:700px;
+}
+.openchat ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.wrapper{
+  position: relative;
+  padding: 10px 20px;
+  margin: 0 10px 10px 10px;
+  background-color:rgb(216, 236, 237);
+  border-radius:5px;
+}
+
+p.comment {
+  margin: 10px 0 0 0;
+  text-align: left;
+}
+
+time {
+  margin-left: 5em;
+  opacity: 0.3;
+}
+
+.namearea{
+  text-align: left;
+}
+
+/*
+ul、<h1>などのタグを編集する。
+*/
+
+.future ul{
+  position: relative;
+  padding: 0.5em;
+  background: rgb(216, 236, 237);
+  color: #555;
+}
+
+.future ul::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
+}
+
+h2{
+  position: relative;
+  padding: 0.5em;
+  background: rgb(216, 236, 237);
+  color: #555;
+  margin-bottom:1.5rem;
+}
+
+h2::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
+}
+
+.future li{
+  list-style: none;
+  padding-left: 10px;
+}
+
+/*
+サイト内に三角形を挿入し、見易さを強化。
+*/
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 40px solid rgb(216, 236, 237);
+  margin: 20px 0 20px 0;
+}
+
+/*
+オープンチャット【テキストエリア】の装飾
+*/
+
+textarea,input[type="submit"],input[type="text"]{
+  resize:none;
+  background-color:rgb(216, 236, 237);
+  border-radius:0.2rem;
+  border:none;
+}
+
+/*フォーカス時の装飾*/
+textarea:focus,input[type="text"]:focus{
+  border: 2px solid #555;
+  outline: 0;
+}
+
+textarea,input[type="text"]{
+  width:100%;
+  padding:10px 0 10px 0;
+}
+
+input[type="submit"]{
+  width: 20%;
+  padding: 5px;
+  margin-top: 5px;
+  font-weight: 800;
+}
+
+/*
+ポップアップ画面の装飾
+*/
+
+
+.bg_onetime_popup {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.bg_onetime_popup.js_active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.onetime_popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 50%;
+  min-width: 500px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.onetime_popup_title {
+  position: relative;
+  padding: 30px 90px;
+  margin: 0px;
+  background-color: rgb(216, 236, 237);
+  color: #555;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.5;
+}
+.onetime_popup_title::before,
+.onetime_popup_title::after {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  content: "";
+}
+.onetime_popup_title::before {
+  transform: rotate(45deg);
+}
+.onetime_popup_title::after {
+  transform: rotate(-45deg);
+}
+
+.onetime_popup_content {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+
