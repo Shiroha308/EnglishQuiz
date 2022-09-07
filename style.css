@@ -17,55 +17,32 @@ body{
 /*
 メニューエリアの装飾
 */
+header {
+  padding: 10px 0;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  margin: 0; padding: 0;
+  font-size: 20px;
+}
 
-nav ul{
-display: table;
-margin: 10px auto;
-padding: 10px 0 10px 0;
-width: 80%;
-text-align: center;
+nav {
+  margin: 0 0 0 auto;
 }
-nav ul li{
-display: table-cell;
-position: relative;
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  font-weight: 800;
+  border-bottom:3px solid #ff3399;
 }
-nav ul li a{
-display: block;
-width: 100%;
-}
-nav ul li a::after,
-nav ul li a::before {
-display: block;
-content: ”;
-position: absolute;
-}
-nav ul li a::after {
-bottom: -50%;
-left: 50%;
-width: 5px;
-height: 5px;
-background-color: #ccc;
-border-radius: 100%;
-}
-nav ul li a.current::after {
-background-color: #3498db;
-}
-nav ul li a:hover{
-color:#ff3399;
-background-color: white;
-}
-nav ul li a:hover:after {
-background-color: yellow;
-width: 100%;
-left: 0;
-border-radius: 5px;
-}
-nav ul li a{
-text-decoration: none;
-color:#aaa;
-}
-nav ul li a.current{
-color:#555;
+nav li {
+  margin: 0 0 0 15px;
+  font-size: 14px;
 }
 
 
