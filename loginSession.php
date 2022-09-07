@@ -35,6 +35,6 @@ session_destroy();
   </div>
   <button type="submit">ログイン</button>
 </form>
-    <a href="http://localhost/webapp/login.php">新規登録を行う場合はこちらから</a>
+    <a href="https://englishquizsample.herokuapp.com/login.php">新規登録を行う場合はこちらから</a>
 </body>
 </html>
