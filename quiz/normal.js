@@ -1,52 +1,52 @@
 //-----------------------------【中級のバージョン】---------------------------------
 let Q = [//クイズの内容を全部入れる
-'Q.【sycophancy】と同じ意味の単語は？',//問題
-' onclick = "Question(1);">obsequiousness',//答え1
-' onclick = "Question(2);">bad-mouthing', //答え2
-' onclick = "Question(2);">detraction', //答え3
-'【sycophancy】は、”おしゃべり”、”おべっか”という意味があります。',//解説
+'Q.【corruption】と同じ意味の単語は？',//問題
+' onclick = "Question(1);">bribery',//答え1
+' onclick = "Question(2);">faint', //答え2
+' onclick = "Question(2);">tribe', //答え3
+'【corruption】は、”腐敗、汚職”という意味があります。',//解説
 
-'Q.【oblique】と同じ意味の単語は？', 
-' onclick = "Question(2);">spare',
-' onclick = "Question(1);">slanted',
-' onclick = "Question(2);">explicit',
-'【oblique】は”遠回しの”、”斜めの”という意味があります。',
+'Q.【criteria】と同じ意味の単語は？', 
+' onclick = "Question(2);">focus',
+' onclick = "Question(1);">benchmark',
+' onclick = "Question(2);">expllicit',
+'【criteria】は”基準”という意味があります。',
 
-'Q.【burrow】と似た意味の単語は？', 
-' onclick = "Question(2);">value',
-' onclick = "Question(1);">tunnel',
-' onclick = "Question(2);">channel',
-'【burrow】は”巣穴”、”潜り穴”という意味があります。',
+'Q.【disability】と似た意味の単語は？', 
+' onclick = "Question(2);">ability',
+' onclick = "Question(1);">impairment',
+' onclick = "Question(2);">affection',
+'【disability】は”障害”という意味があります。',
 
-'Q.【piquant】と同じ意味の単語は？', 
-' onclick = "Question(2);">sweet',
-' onclick = "Question(1);">pungent',
-' onclick = "Question(2);">sultry',
-'【piquant】は”ピリッとくる辛さ”という意味があります。',
+'Q.【essence】と同じ意味の単語は？', 
+' onclick = "Question(2);">edge',
+' onclick = "Question(1);">core',
+' onclick = "Question(2);">around',
+'【essence】は”本質”という意味があります。',
 
-'Q.【fruit pulp】のpulpはどんな意味？', 
-' onclick = "Question(1);">果肉',
-' onclick = "Question(2);">果汁',
-' onclick = "Question(2);">種',
-'【pulp】には”果肉”という意味があります。',
+'Q.【incentive】はどんな意味？', 
+' onclick = "Question(1);">motivation',
+' onclick = "Question(2);">agree',
+' onclick = "Question(2);">antagonist',
+'【incentive】には”動機”という意味があります。',
 
-'Q.【腰】が痛い時はどこへ行く？？', 
-' onclick = "Question(2);">dermatology',
-' onclick = "Question(2);">cardiology ',
-' onclick = "Question(1);">osteopathic',
-'【osteopathic】は”整体師”、という意味があります。',
+'Q.【speculation】と同じ意味の単語は？？', 
+' onclick = "Question(2);">wager',
+' onclick = "Question(2);">carbon ',
+' onclick = "Question(1);">conjecture',
+'【speculation】は”整体師”、という意味があります。',
 
-'Q.【inaugurate】と同じ意味の単語は？？', 
-' onclick = "Question(2);">abolish',
-' onclick = "Question(1);">initiate',
-' onclick = "Question(2);">terminate',
-'【inaugurate】は”就任する、始める”、という意味があります。',
+'Q.【supervisor】と同じ意味の単語は？？', 
+' onclick = "Question(2);">chief',
+' onclick = "Question(1);">slide',
+' onclick = "Question(2);">cuffs',
+'【supervisor】は”上司”、という意味があります。',
 
-'Q.【amber】と同じ意味の単語は？？', 
-' onclick = "Question(1);">translucent fossil resin',
-' onclick = "Question(2);">gummy',
-' onclick = "Question(2);">strand',
-'【amber】は"琥珀”、という意味があります。',
+'Q.【idiot】と同じ意味の単語は？？', 
+' onclick = "Question(1);">foolish',
+' onclick = "Question(2);">smart',
+' onclick = "Question(2);">tacky',
+'【idiot】は"バカ”、という意味があります。',
 
 ];
 
