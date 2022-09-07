@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英単語_上級コース</title>
      <!-- スタイルシートの読み込み -->
-    <link rel="stylesheet" href="http://localhost/webapp/style.css">
+    <link rel="stylesheet" href="https://englishquizsample.herokuapp.com/style.css">
      <!-- javascriptファイルの読み込み -->
-    <script type="text/javascript" src="difficult.js"></script>
+    <script type="text/javascript" src="https://englishquizsample.herokuapp.com/quiz/difficult.js"></script>
 <?php
     date_default_timezone_set("Asia/Tokyo");
     echo shell_exec("python script.py");
@@ -18,7 +18,7 @@
     $error_messages = array();
     //DB(MySQL接続)を行う
     try{
-        $pdo = new PDO('mysql:host=localhost;dbname=openchat', "root", "root");
+        $pdo = new PDO('mysql:dbname=heroku_e8f3a7d35b48f46;host=us-cdbr-east-06.cleardb.net;charset=utf8','b107445cca4e99','a12347dc');
     }catch(PDOException $e){
         echo $e->getMessage();
     }    
