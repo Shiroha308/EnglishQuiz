@@ -35,9 +35,9 @@
     ■難易度別に単語テストに挑戦してみよう！<br>
     ※上級は相当難しいので、腕に自信がある人のみ挑戦してみてください。<p>
     <center>
-    <button name="timeSec" id="" class="choice"  onclick="window.open('http://localhost/webapp/quiz/easy.php')">初級</button>
-    <button name="timeSec" id="" class="choice" onclick="window.open('http://localhost/webapp/quiz/normal.php')">中級</button>
-    <button name="timeSec" id="" class="choice" onclick="window.open('http://localhost/webapp/quiz/difficult.php')">上級</button>
+    <button name="timeSec" id="" class="choice"  onclick="window.open('https://englishquizsample.herokuapp.com/quiz/easy.php')">初級</button>
+    <button name="timeSec" id="" class="choice" onclick="window.open('https://englishquizsample.herokuapp.com/quiz/normal.php')">中級</button>
+    <button name="timeSec" id="" class="choice" onclick="window.open('https://englishquizsample.herokuapp.com/quiz/difficult.php')">上級</button>
     </center>
     </div>
     
