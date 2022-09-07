@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英単語_初級コース</title>
      <!-- スタイルシートの読み込み -->
-    <link rel="stylesheet" href="http://localhost/webapp/style.css">
+    <link rel="stylesheet" href="https://englishquizsample.herokuapp.com/style.css">
      <!-- javascriptファイルの読み込み -->
-    <script type="text/javascript" src="easy.js"></script>
+    <script type="text/javascript" src="https://englishquizsample.herokuapp.com/quiz/easy.js"></script>
 <?php
     date_default_timezone_set("Asia/Tokyo");
     echo shell_exec("python script.py");
