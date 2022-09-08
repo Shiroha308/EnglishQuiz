@@ -36,7 +36,7 @@ try{
     $error_messages = array();
     //openchat-tableへのアクセスを行う
     try{
-        $pdo = new PDO('mysql:host=us-cdbr-east-06.cleardb.net;dbname=b107445cca4e99', "b107445cca4e99", "a12347dc");
+        $pdo = new PDO('mysql:host=127.0.0.1:3306;dbname=openchat', "root", "root");
     }catch(PDOException $e){
         echo $e->getMessage();
     }    
