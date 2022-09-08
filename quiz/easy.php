@@ -1,3 +1,7 @@
+<?php
+    include ( dirname(__FILE__) . '/../environment.php');
+?>
+
 <!DOCTYPE html>
 <!-- 初級ボタンを選択した人専用の画面 --> 
 <html lang="ja">
