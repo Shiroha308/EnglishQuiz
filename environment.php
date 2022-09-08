@@ -3,10 +3,10 @@
 //loginデータベースへアクセス
 //
 
-define('DB_HOST', 'us-cdbr-east-06.cleardb.net');
-define('DB_NAME', 'heroku_e8f3a7d35b48f46');
-define('DB_USER', 'b107445cca4e99');
-define('DB_PASS', 'a12347dc');
+define('DB_HOST', '127.0.0.1');
+define('DB_NAME', 'login');
+define('DB_USER', 'root');
+define('DB_PASS', 'root');
 
 function connect(){
     $host = DB_HOST;
