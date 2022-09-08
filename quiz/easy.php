@@ -1,5 +1,4 @@
 <?php
-    phpinfo();
     include ( dirname(__FILE__) . '/../environment.php');
 ?>
 
