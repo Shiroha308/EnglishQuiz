@@ -3,10 +3,10 @@
 //loginデータベースへアクセス
 //
 
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'host');
 define('DB_NAME', 'login');
-define('DB_USER', 'root');
-define('DB_PASS', 'root');
+define('DB_USER', 'host');
+define('DB_PASS', 'host');
 
 function connect(){
     $host = DB_HOST;
@@ -36,7 +36,7 @@ try{
     $error_messages = array();
     //openchat-tableへのアクセスを行う
     try{
-        $pdo = new PDO('mysql:host=127.0.0.1;dbname=openchat;port=3306', "root", "root");
+        $pdo = new PDO('mysql:host=host;dbname=openchat;port=3306', "host", "host");
     }catch(PDOException $e){
         echo $e->getMessage();
     }    
