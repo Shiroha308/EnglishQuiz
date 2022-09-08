@@ -14,7 +14,7 @@ function connect(){
     $user = DB_USER;
     $pass = DB_PASS;
 
-    $dsn  = "mysql:host=$host;dbname=$db;port=3306";
+    $dsn  = "mysql:host=$host;dbname=$db";
 try{
 //PDOのオプション部分を設定
     $pdo  = new PDO($dsn, $user , $pass ,[
@@ -36,7 +36,7 @@ try{
     $error_messages = array();
     //openchat-tableへのアクセスを行う
     try{
-        $pdo = new PDO('mysql:host=localhost;dbname=openchat;port=3306', "root", "root");
+        $pdo = new PDO('mysql:host=localhost;dbname=openchat', "root", "root");
     }catch(PDOException $e){
         echo $e->getMessage();
     }    
