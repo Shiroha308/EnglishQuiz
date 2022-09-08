@@ -4,9 +4,9 @@
 //
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'login');
-define('DB_USER', 'root');
-define('DB_PASS', 'Clannad7');
+define('DB_NAME', 'xs849901_login');
+define('DB_USER', 'xs849901_shizuma');
+define('DB_PASS', 'clannad7');
 
 function connect(){
     $host = DB_HOST;
