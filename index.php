@@ -9,6 +9,7 @@
      <!-- スタイルシートの読み込み -->
     <link rel="stylesheet" href="https://englishquizsample.herokuapp.com/style.css">
      <!-- javascriptファイルの読み込み -->
+    <script type="text/javascript" src="index.js"></script>
 <!-- pythonファイルの読み込み -->
 
 
