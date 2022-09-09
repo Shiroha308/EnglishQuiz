@@ -122,7 +122,6 @@
 <!-- 予備エリア -->
 
 <!-- ページを訪れるたびにポップアップを表示させる -->
-<!-- 必要に応じてlocalStrage⇄SessionStrageへ変更 -->
 
 <div class="bg_onetime_popup">
     <div class="onetime_popup">
@@ -134,7 +133,7 @@
             <p>難易度別に実力を試せる</p>
             <strong>・難易度別単語テスト</strong><br>
             <p>の2モードがあります。</p>
-            好きなモードをプレイして語彙力を強化しましょう！
+            <p style="font-size:1.3em">好きなモードをプレイして語彙力を強化しましょう！</p>
         </div>
     </div>
 </div>
