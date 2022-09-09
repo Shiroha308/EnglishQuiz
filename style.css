@@ -298,7 +298,7 @@ input[type="submit"]{
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 50%;
-  max-width: 450px;
+  min-width: 450px;
   background-color: #fff;
   cursor: pointer;
 }
