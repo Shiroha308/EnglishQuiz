@@ -1,17 +1,33 @@
 <?php
-
 //
 //openchatデータベースへアクセス
 //
-    $pdo = null;
-    $stmt = null;
-    $error_messages = array();
-    //openchat-tableへのアクセスを行う
-    try{
-        $pdo = new PDO('mysql:host=localhost;dbname=xs849901_openchat', "xs849901_shizuma", "clannad7");
-    }catch(PDOException $e){
-        echo $e->getMessage();
-    }    
+
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'xs849901_openchat');
+define('DB_USER', 'xs849901_shizuma');
+define('DB_PASS', 'clannad7');
+
+function connect(){
+    $host = DB_HOST;
+    $db   = DB_NAME;
+    $user = DB_USER;
+    $pass = DB_PASS;
+
+    $dsn  = "mysql:host=$host;dbname=$db";
+try{
+//PDOのオプション部分を設定
+    $pdo  = new PDO($dsn, $user , $pass ,[
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+]);
+    return $pdo;
+    echo '成功です。';
+} catch(PDOException $e){
+    echo '接続失敗'. $e->getMessage();
+    }
+}
+
     //DBからのデータを格納する配列を用意する
     $comment_array = array();
 
@@ -45,4 +61,5 @@
     $comment_array = $pdo->query($sql);
     //DBの接続を閉じる
     $pdo = null;
+
 ?>
