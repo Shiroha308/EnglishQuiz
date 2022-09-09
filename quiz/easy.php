@@ -1,6 +1,6 @@
 <?php
     include ( dirname(__FILE__) . '/../debug.php');
-    include ( dirname(__FILE__) . '/../database.php');
+    include ( dirname(__FILE__) . '/../environment.php');
 ?>
 
 <!DOCTYPE html>
