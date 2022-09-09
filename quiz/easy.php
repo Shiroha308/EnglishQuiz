@@ -1,5 +1,4 @@
 <?php
-    include ( dirname(__FILE__) . '/../environment.php');
     include ( dirname(__FILE__) . '/../debug.php');
 ?>
 
