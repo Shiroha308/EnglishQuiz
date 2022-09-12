@@ -18,6 +18,11 @@
 
 </head>
 <body>
+	
+<!-- 問題終了後の表示エリアを作成 -->
+	<p id="finish" style="text-align: center;"><button class="buttonnext">問題を終了する</button></p>
+	<div id="quizResult"></div>
+	
 <!-- ヘッダーメニューの作成 -->
     <nav>
      <ul>
