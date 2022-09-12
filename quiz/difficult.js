@@ -116,7 +116,16 @@ document.write('<button class="choice"'+ Q[R+3] +'</button><br/>');
 document.write('<p id="next"><button class="buttonnext" onClick="Question(0);">次の問題へ</button></p>');
 document.write('</div>');
 
+//問題終了後の画面を表示させる
 
+document.addEventListener("DOMContentLoaded", function(){
+  document.getElementById('finish').addEventListener('click',function(){
+  const result= document.getElementById('quizResult');
+  //関数の呼び出し
+  Question();
+  result.innerHTML = '<p class="result">最終結果</p><a>正解数：　' +right+ '<br>誤答数：　' +wrong+ '<br>正答率は' +Math.floor(right/QuestionNum*100)+ '%でした！</a><p>間違えた単語を復習してどんどん単語を覚えましょう！</p>';  
+  })
+},false)
 
 
 
