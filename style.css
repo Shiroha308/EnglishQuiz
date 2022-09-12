@@ -337,3 +337,19 @@ input[type="submit"]{
 }
 
 
+/*
+結果表示画面の装飾
+*/
+
+p.result {
+  content: center;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 75px;
+  border: 3px dotted #ff3399;
+}
+
+div#quizResult {
+    text-align: center;
+}
