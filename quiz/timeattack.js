@@ -97,6 +97,7 @@ function Question(number){
   }
 }
 //HTML側で初期画面にクイズの内容を表示※20220902時点で表示しない設定に変更
+//quizareaに対して、display="none"を設定
 document.write('<div class="quizarea">');
 //○か×かを記載するエリア
 document.write('<p id="ox"></p>');
@@ -117,17 +118,22 @@ document.write('<p id="next"><button class="buttonnext" onClick="Question(0);">�
 document.write('</div>');
 
 
-//-----------------------------【5分,10分,15分ごとにタイマーを作動させる】---------------------------------
-
-//300秒,600秒,900秒の値を取得する。
-
-//ボタンのIDを取得させる。
+//-----------------------------【※要検討：ボタンを押されるまでクイズを非表示】---------------------------------
 function clk(e){
     /// 要素IDを取得する
     var e = e || window.event;
     var elem = e.target || e.srcElement;
     var elemId = elem.id;
-    
+//ボタンが押されるまで、クイズを非表示にする
+    var onoffquiz = document.getElementsByClassName("quizarea");
+    Array.from(onoffquiz).forEach((x) => {
+      if(x.style.visibility == "hidden"){
+        x.style.removeAttribute == "style";
+        console.log("ない");
+      }else{
+        x.style.visibility == "none";
+      }
+    })
     /// 要素IDに応じて処理を変える...
     switch(elemId){
       case '60': 
@@ -141,7 +147,8 @@ function clk(e){
     }
   }
 
-//タイマーを作動させる関数
+//-----------------------------【※タイマー作動の関数】---------------------------------
+
 function timeget(elemId) {
   let time = elemId
 //関数の名前を入れてカウントダウンを1秒/1回作動する。
@@ -153,7 +160,10 @@ function timeget(elemId) {
   if(time < 0){
       clearInterval(OnOff);
   //解答した結果を表示させる。
-      alert("最終スコア"+"正答数:"+right+"誤答数"+wrong+"最終正答率は"+Math.floor(right/QuestionNum*100)+"%でした！")
+  const result= document.getElementById('quizResult');
+  //関数の呼び出し
+  Question();
+  result.innerHTML = '<p class="result">最終結果</p><a>正解数：　' +right+ '<br>誤答数：　' +wrong+ '<br>正答率は' +Math.floor(right/QuestionNum*100)+ '%でした！</a><p>間違えた単語を復習してどんどん単語を覚えましょう！</p>';
   }
   //秒数が1桁の時に0を付け加えるようにする。
   seconds = seconds < 10 ? '0' + seconds : seconds;
@@ -171,20 +181,6 @@ function timeget(elemId) {
 }
 
 
-
-//ポップアップを作動させるための関数
-//必要に応じてlocalStrage⇄sessionStrageへ変更
-
-window.addEventListener('load', function() {
-  if( !sessionStorage.getItem('disp_popup') ) {
-    sessionStorage.setItem('disp_popup', 'on');
-    var popup = document.getElementsByClassName('bg_onetime_popup');
-    popup[0].classList.add('js_active');
-    popup[0].onclick = function() {
-    popup[0].classList.remove('js_active');
-    }
-  }
-}, false);
 
 
 
