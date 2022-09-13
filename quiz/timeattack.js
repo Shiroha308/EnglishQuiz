@@ -1,4 +1,4 @@
-//-----------------------------【タイムアタックのバージョン】---------------------------------
+//-----------------------------【タイムアタックのバージョン：初級、中級、上級全て含む】---------------------------------
 let Q = [//クイズの内容を全部入れる
 'Q.【sycophancy】と同じ意味の単語は？',//問題
 ' onclick = "Question(1);">obsequiousness',//答え1
@@ -48,6 +48,101 @@ let Q = [//クイズの内容を全部入れる
 ' onclick = "Question(2);">strand',
 '【amber】は"琥珀”、という意味があります。',
 
+'Q.【relationship】と同じ意味の単語は？',//問題
+' onclick = "Question(1);">link',//答え1
+' onclick = "Question(2);">divorce', //答え2
+' onclick = "Question(2);">division', //答え3
+'【relationship】は、”関係性”という意味があります。',//解説
+
+'Q.【achieve】と同じ意味の単語は？', 
+' onclick = "Question(2);">archive',
+' onclick = "Question(2);">allocate',
+' onclick = "Question(1);">complete',
+'【achieve】は”達成する”という意味があります。',
+
+'Q.【theory】と似た意味の単語は？', 
+' onclick = "Question(2);">value',
+' onclick = "Question(2);">concept',
+' onclick = "Question(1);">throw',
+'【theory】は”仮説、設定”という意味があります。',
+
+'Q.【fold】と同じ意味の単語は？', 
+' onclick = "Question(2);">unfold',
+' onclick = "Question(1);">bend',
+' onclick = "Question(2);">folder',
+'【fold】は”折り曲げる”という意味があります。',
+
+'Q.【ancestor】と同じ意味の単語は？', 
+' onclick = "Question(1);">forebear',
+' onclick = "Question(2);">liner',
+' onclick = "Question(2);">planner',
+'【ancestor】には”祖先”という意味があります。',
+
+'Q.【audience】と同じ意味の単語は？', 
+' onclick = "Question(2);">authority',
+' onclick = "Question(2);">augment',
+' onclick = "Question(1);">gallery',
+'【audience】は”聴衆”、という意味があります。',
+
+'Q.【deny】と同じ意味の単語は？？', 
+' onclick = "Question(1);">decline',
+' onclick = "Question(2);">accept',
+' onclick = "Question(2);">climb',
+'【deny】は”否定す、却下する”、という意味があります。',
+
+'Q.【serve】と同じ意味の単語は？？', 
+' onclick = "Question(1);">provide',
+' onclick = "Question(2);">severe',
+' onclick = "Question(2);">saver',
+'【serve】は"提供する”、という意味があります。',
+	
+'Q.【corruption】と同じ意味の単語は？',//問題
+' onclick = "Question(1);">bribery',//答え1
+' onclick = "Question(2);">faint', //答え2
+' onclick = "Question(2);">tribe', //答え3
+'【corruption】は、”腐敗、汚職”という意味があります。',//解説
+
+'Q.【criteria】と同じ意味の単語は？', 
+' onclick = "Question(2);">focus',
+' onclick = "Question(1);">benchmark',
+' onclick = "Question(2);">expllicit',
+'【criteria】は”基準”という意味があります。',
+
+'Q.【disability】と似た意味の単語は？', 
+' onclick = "Question(2);">ability',
+' onclick = "Question(1);">impairment',
+' onclick = "Question(2);">affection',
+'【disability】は”障害”という意味があります。',
+
+'Q.【essence】と同じ意味の単語は？', 
+' onclick = "Question(2);">edge',
+' onclick = "Question(1);">core',
+' onclick = "Question(2);">around',
+'【essence】は”本質”という意味があります。',
+
+'Q.【incentive】はどんな意味？', 
+' onclick = "Question(1);">motivation',
+' onclick = "Question(2);">agree',
+' onclick = "Question(2);">antagonist',
+'【incentive】には”動機”という意味があります。',
+
+'Q.【speculation】と同じ意味の単語は？？', 
+' onclick = "Question(2);">wager',
+' onclick = "Question(2);">carbon ',
+' onclick = "Question(1);">conjecture',
+'【speculation】は”整体師”、という意味があります。',
+
+'Q.【supervisor】と同じ意味の単語は？？', 
+' onclick = "Question(2);">chief',
+' onclick = "Question(1);">slide',
+' onclick = "Question(2);">cuffs',
+'【supervisor】は”上司”、という意味があります。',
+
+'Q.【idiot】と同じ意味の単語は？？', 
+' onclick = "Question(1);">foolish',
+' onclick = "Question(2);">smart',
+' onclick = "Question(2);">tacky',
+'【idiot】は"バカ”、という意味があります。',
 ];
 
 //質問数の数を取得し、5つの項目でひとつの設問と認識させる。【質問、設問1,設問2,設問3,説明】
