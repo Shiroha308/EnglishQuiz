@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英単語_タイムアタック</title>
      <!-- スタイルシートの読み込み -->
-    <link rel="stylesheet" href="http://localhost/webapp/style.css">
+    <link rel="stylesheet" href="https://englishquizsample.herokuapp.com/style.css">
      <!-- javascriptファイルの読み込み -->
-    <script type="text/javascript" src="difficult.js"></script>
+    <script type="text/javascript" src="timeattack.js"></script>
 </head>
 <body>
 <!-- 制限時間表示エリア --> 	
