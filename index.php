@@ -53,7 +53,7 @@
         ■制限時間内に何問正解できるかに挑戦しよう！<br>
         ※制限時間終了後、正答率が表示されるので単語学習の学習到達度の目安にしてください。<p>
             <center>
-                <button name="timeSec" id="60" class="choice" onclick="location.href='https://englishquizsample.herokuapp.com/quiz/timeattack.php'">>タイムアタックに挑戦する</button>
+                <button name="timeSec" id="60" class="choice" onclick="location.href='https://englishquizsample.herokuapp.com/quiz/timeattack.php'">タイムアタックに挑戦する</button>
             </center>
 	</div>
 
