@@ -50,14 +50,12 @@
     <h2>単語テスト【タイムアタック】※実装途中</h2>
     
     <div class="ButtonArea">
-        ■下のボタン記載の制限時間内に何問正解できるかに挑戦しよう！<br>
+        ■制限時間内に何問正解できるかに挑戦しよう！<br>
         ※制限時間終了後、正答率が表示されるので単語学習の学習到達度の目安にしてください。<p>
             <center>
-                <button name="timeSec" id="60" class="choice"  onclick="clk()">1分</button>
-                <button name="timeSec" id="600" class="choice" onclick="clk()">10分</button>
-                <button name="timeSec" id="900" class="choice" onclick="clk()">15分</button>
+                <button name="timeSec" id="60" class="choice" onclick="location.href='https://englishquizsample.herokuapp.com/quiz/timeattack.php'">>タイムアタックに挑戦する</button>
             </center>
-</div>
+	</div>
 
 
 
